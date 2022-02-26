@@ -1,1 +1,5 @@
-document.addEventListener("keydown",function(e){82===e.keyCode&&(window.location.href="/rick.html")});
+document.addEventListener("keydown", (e) => {
+  if (e.keyCode === 82) {
+    window.location.href = "/rick.html";
+  }
+});
